@@ -25,7 +25,7 @@ services:
       - static:/frontend_static
 
   gateway:
-    image: ghcr.io/rusiich/taski-gateway:lates
+    image: ghcr.io/rusiich/taski-gateway:latest
     env_file: .env
     volumes:
       - static:/staticfiles
